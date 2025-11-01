@@ -68,11 +68,12 @@ h2 {
         max-width: 300px;
     }
 }
-#dpic img {
+#dpic img.ppic {
     width: 250px;
     height: 250px;
-    border-radius: 50%; 
-    object-fit: cover;  
+    border-radius: 50%;
+    object-fit: cover;
+    display: block; 
 }
 .iico {
     width: 40px;
