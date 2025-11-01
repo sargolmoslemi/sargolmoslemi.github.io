@@ -69,12 +69,13 @@ h2 {
     }
 }
 #dpic img.ppic {
-    width: 250px;
+    width: 240px;
     height: 250px;
     border-radius: 50%;
-    object-fit: contain; 
+    object-fit: cover;
+    object-position: top;
     display: block;
-    background-color: #fff; 
+}
 .iico {
     width: 40px;
     height: 40px;
