@@ -70,8 +70,9 @@ h2 {
 }
 #dpic img {
     width: 250px;
-    height: 230px;
-    border-radius: 120px;
+    height: 250px;
+    border-radius: 50%; 
+    object-fit: cover;  
 }
 .iico {
     width: 40px;
